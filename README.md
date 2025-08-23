@@ -1,6 +1,6 @@
 # Object feature Rasterization
 
-**NOTE**: this is a modified version from original 3DGS code to support object feature based 3DGS Segmentation and editing.
+**NOTE**: this is a modified version from original 3DGS code to support **object feature** based 3DGS Segmentation and editing.
  
 
 If you can make use of it in your own research, please be so kind to mention this github link.
