@@ -1,4 +1,4 @@
-#
+t#
 # Copyright (C) 2023, Inria
 # GRAPHDECO research group, https://team.inria.fr/graphdeco
 # All rights reserved.
@@ -15,11 +15,11 @@ import os
 os.path.dirname(os.path.abspath(__file__))
 
 setup(
-    name="diff_gaussian_rasterization",
-    packages=['diff_gaussian_rasterization'],
+    name="object_feature_rasterization",
+    packages=['object_feature_rasterization'],
     ext_modules=[
         CUDAExtension(
-            name="diff_gaussian_rasterization._C",
+            name="object_feature_rasterization._C",
             sources=[
             "cuda_rasterizer/rasterizer_impl.cu",
             "cuda_rasterizer/forward.cu",
